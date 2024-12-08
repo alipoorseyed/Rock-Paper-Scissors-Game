@@ -1,0 +1,138 @@
+@media (max-width: 4000px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9D9D9;
+  }
+  .span-div {
+    padding: 2rem 8rem;
+  }
+  header .head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  header .head p {
+    font-size: 30px;
+    font-weight: 700;
+    color: #070A52;
+  }
+  header .head img:hover {
+    cursor: pointer;
+  }
+  main .main .reset {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 2.5rem 0rem 4rem 0rem;
+  }
+  main .main .reset:hover {
+    cursor: pointer;
+  }
+  main .main .score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0rem 6rem;
+    margin-bottom: 3rem;
+  }
+  main .main .score p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main .main .result {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  main .main .show-rps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  main .main .rps-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  main .main .rps-span .rps-button {
+    width: 11rem;
+    height: 4rem;
+    background-color: #DF2E38;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    border: transparent;
+    border-radius: 14px;
+  }
+  main .main .rps-span .rps-button:hover {
+    cursor: pointer;
+  }
+  main .main .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2.5rem;
+  }
+  main .main .start .start-button {
+    padding: 1rem 2rem;
+    background-color: rgb(91, 249, 109);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: transparent;
+    border-radius: 12px;
+  }
+  main .main .start .start-button:hover {
+    cursor: pointer;
+  }
+  main .notice {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  .dark header .head p {
+    color: #BEBFD1 !important;
+  }
+  .dark main .main .reset {
+    color: #FFFFFF !important;
+  }
+  .dark main .main .score p {
+    color: #FFFFFF !important;
+  }
+  .dark main .main .result {
+    color: #6881D8 !important;
+  }
+  .dark main .main .show-rps p {
+    color: white !important;
+  }
+  .dark main .main .rps-span .rps-button {
+    background-color: #2751A3 !important;
+    color: #FFFFFF !important;
+  }
+  .dark main .main .start .start-button {
+    background-color: #272b6d !important;
+    color: #FFFFFF !important;
+  }
+  .dark main .main .start p {
+    color: white !important;
+  }
+  .dark main .notice {
+    color: #FFFFFF !important;
+  }
+}
+.body-dark {
+  background-color: #353535;
+}/*# sourceMappingURL=style.css.map */

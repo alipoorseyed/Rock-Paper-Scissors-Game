@@ -1,0 +1,209 @@
+@import "_mixin.scss";
+
+
+
+@include respond-to(4000px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    };
+    
+    body{
+        direction: ltr;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #D9D9D9;
+    }
+
+    .span-div{
+        padding: 2rem 8rem;
+    }
+
+
+    header{
+
+        .head{
+            width: 100%;
+            @include display(space-between,center,row);
+
+            p{
+                font-size: 30px;
+                font-weight: 700;
+                color: #070A52;
+            }
+
+            img{
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+    }
+
+    main{
+
+        .main{
+
+            .reset{
+                font-size: 20px;
+                font-weight: 700;
+                text-align: center;
+                margin: 2.5rem 0rem 4rem 0rem;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+
+            .score{
+                @include display(space-between,center,row);
+                padding: 0rem 6rem;
+                margin-bottom: 3rem;
+                p{
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+
+            .result{
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+
+            .show-rps{
+                @include display(center,center,row);
+                gap: 3rem;
+                margin-bottom: 3rem;
+            }
+
+            .rps-span{
+                @include display(center,center,row){
+                    gap: 1.5rem;
+                }
+                .rps-button{
+                    width: 11rem;
+                    height: 4rem;
+                    background-color: #DF2E38;
+                    color: #FFFFFF;
+                    font-size: 25px;
+                    font-weight: 700;
+                    border: transparent;
+                    border-radius: 14px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+
+            }
+
+            .start{
+                @include display(center,center,row);
+                margin-top: 2.5rem;
+
+                .start-button{
+                    padding: 1rem 2rem;
+                    background-color: rgb(91, 249, 109);
+                    color: #FFFFFF;
+                    font-size: 20px;
+                    font-weight: 600;
+                    border: transparent;
+                    border-radius: 12px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+
+            }
+
+        }
+
+        .notice{
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+    }
+
+
+
+    .dark{
+    
+
+        header{
+    
+            .head{
+                p{
+                    color: #BEBFD1 !important;
+                }
+    
+            }
+    
+        }
+    
+        main{
+    
+            .main{
+    
+                .reset{
+                    color: #FFFFFF !important;
+                }
+    
+                .score{
+                    p{
+                        color: #FFFFFF !important;
+                    }
+                }
+    
+                .result{
+                    color: #6881D8 !important;
+                }
+    
+                .show-rps{
+                    p{
+                        color: white !important;
+                    }
+                }
+    
+                .rps-span{
+                    .rps-button{
+                        background-color: #2751A3 !important;
+                        color: #FFFFFF !important;
+                    }
+    
+                }
+    
+                .start{
+                    .start-button{
+                        background-color: #272b6d !important;
+                        color: #FFFFFF !important;
+                    }
+
+                    p{
+                        color: white !important;
+                    }
+    
+                }
+    
+            }
+    
+            .notice{
+                color: #FFFFFF !important;
+            }
+        }
+    
+    }
+    
+
+    
+}
+
+
+.body-dark{
+    background-color: #353535;
+}
+
+
+
+
+
